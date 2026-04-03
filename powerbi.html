@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Projet Power BI – Axel Alomar</title>
+  <link rel="stylesheet" href="style.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;500;700&display=swap" rel="stylesheet" />
+</head>
+<body>
+  <header class="header">
+    <div class="logo">Alomar Axel<span>.</span></div>
+    <nav class="nav">
+      <a href="portfolio.html#projects">⬅ Retour aux projets</a>
+    </nav>
+  </header>
+
+  <section class="section">
+    <div class="section-title">
+      <h2>Supervision des imprimantes – Power BI</h2>
+      <p>
+        Tableau de bord développé en entreprise permettant la supervision en temps réel
+        du parc d’imprimantes Fnac Darty.
+      </p>
+    </div>
+
+    <div class="gallery">
+      <a href="images/powerbi/dashboard-1.png" target="_blank" rel="noopener noreferrer">
+        <img src="images/powerbi/dashboard-1.png" alt="Dashboard Power BI - Vue 1" />
+      </a>
+
+      <a href="images/powerbi/dashboard-2.png" target="_blank" rel="noopener noreferrer">
+        <img src="images/powerbi/dashboard-2.png" alt="Dashboard Power BI - Vue 2" />
+      </a>
+    </div>
+  </section>
+
+  <footer class="footer">
+    <p>&copy; <span id="year"></span> Axel Alomar – Tous droits réservés.</p>
+  </footer>
+
+  <script>
+    document.getElementById("year").textContent = new Date().getFullYear();
+  </script>
+</body>
+</html>

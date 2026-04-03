@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Sommaire – Portfolio Axel Alomar</title>
+  <link rel="stylesheet" href="style.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;500;700&display=swap" rel="stylesheet" />
+</head>
+<body>
+  <header class="header">
+    <div class="logo">Alomar Axel<span>.</span></div>
+  </header>
+
+  <main class="summary-hero">
+    <div class="summary-card">
+      <h1>Bienvenue sur mon portfolio</h1>
+      <p class="summary-subtitle">
+        Je m’appelle <strong>Axel Alomar</strong>, étudiant en BTS SIO option SLAM et alternant
+        administrateur réseau chez Fnac Darty.
+      </p>
+
+      <h2>Sommaire</h2>
+      <ul class="summary-list">
+        <li><strong>À propos</strong> – Présentation de mon profil et de mon parcours.</li>
+        <li><strong>École</strong> – Mon BTS SIO à l’EMSCA et mon bac général.</li>
+        <li><strong>Entreprise</strong> – Mon alternance en administration réseau chez Fnac Darty.</li>
+        <li><strong>Projets</strong> – Chatbot, projet de groupe Redon, et tableau de bord Power BI.</li>
+        <li><strong>Compétences</strong> – Développement web, infrastructure, outils et supervision.</li>
+        <li><strong>Contact</strong> – Pour me joindre par mail ou voir mon GitHub.</li>
+      </ul>
+
+      <a href="portfolio.html" class="btn summary-btn">Accéder à mon portfolio</a>
+    </div>
+  </main>
+
+  <footer class="footer">
+    <p>&copy; <span id="year"></span> Axel Alomar – Tous droits réservés.</p>
+  </footer>
+
+  <script>
+    document.getElementById("year").textContent = new Date().getFullYear();
+  </script>
+</body>
+</html>
